@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(218, 28%, 13%);
+    
+}
+
+
+/* mobile view of 375px */
+
+
+/* header of the Fylo's project */
+.logo {
+    width: 100px;   
+}
+
+.logo-img {
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+nav {
+    width: 80%; 
+}
+
+
+ nav ul {
+    text-align: right;
+    align-items: flex-start;
+   
+} 
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 8px;
+    text-align: center;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: white;
+    font-weight: 700;
+}
+
+/* header ends */
+
+
+/* sections containing the about and getting started with image illustration */
+
+.content-img {    
+   width: 80%;  
+   margin: 20px auto 0;
+}
+
+.main {
+    background-color: hsl(217, 28%, 15%);
+}
+
+.intro {
+    width: 100%;
+}
+
+
+
+#first-content p {
+    text-align: center;
+    font-weight: 400;
+    padding: 20px;
+    width: 90%; 
+    margin: 0 auto;
+}
+
+
+#first-content h2 {
+    width: 40%;
+    margin: 0 auto;
+    
+}
+
+
+.bg {
+    background-image: url("./image/bg-curvy-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: hsl(217, 28%, 15%);
+    padding: 20px 0 0;
+}
+
+
+.bt-cont {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 20px 0;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    background-color: hsl(198, 60%, 50%); 
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+
+
+.bt-cont:hover {
+    background-color: hsl(176, 68%, 64%);
+}
+
+/* ends here */
+
+
+/* sections with icons illustration */
+.cont {
+    width: 85%;
+    margin: 5rem auto 0;
+}
+
+.icons {
+    width: 50%;
+    margin: 3.5rem auto 2rem;
+    text-align: center;
+}
+
+
+.main-one p {
+    text-align: center;
+    padding: 10px 0;
+    line-height: 1.5;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ends here */
+
+
+/* sections on productives */
+.productive .content-imgs {
+    width: 80%;
+    margin: 8rem auto 3rem;
+}
+
+.intros {
+    width: 100%;
+}
+
+#header {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.case-one {
+   width: 85%;
+   margin: 0 auto;
+}
+
+
+.case-one #file {
+    margin-bottom: 20px;
+}
+
+#link a {
+    color: hsl(176, 68%, 64%);
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+#link a:hover {
+    color: white;
+    border-bottom-color: white;
+}
+
+/* ends here */
+
+
+/* sections on quote */
+.quote {
+    margin: 5rem auto 0;
+    width: 85%;
+}
+
+#quoter {
+    position: relative;
+    top: 2.8rem;
+}
+
+article {
+    /* margin: 0 20px; */
+    padding: 40px 0 0;
+  
+}
+#quote_1 {
+    border: 1px solid transparent;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    padding: 20px 10px;
+    font-size: 13px;
+    width: 100%;
+}
+
+#quote_2 {
+    border: 1px solid transparent;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    padding: 20px 10px;
+    font-size: 13px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#quote_3 {
+    border: 1px solid transparent;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    padding: 20px 10px;
+    font-size: 13px;
+    width: 100%;
+    margin-top: 30px;
+}
+#founder {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+
+span {
+    font-weight: 700;
+}
+
+
+.testifier {
+    height: 30px;
+    width: 30px;
+    border-radius: 60px;
+}
+
+.users {
+    margin-top: 20px;
+}
+/* ends here */
+
+
+/* section on access */
+.access {
+    border: 1px solid transparent;
+    margin: 0 auto;
+    width: 90%;
+    position: relative;
+    top: 10rem;
+    border-radius: 20px;
+    background-color: hsl(217, 28%, 15%);
+}
+
+
+.access h2 {
+    margin: 40px 0 15px;
+    
+}
+
+.access p {
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    padding: 5px 25px;
+    
+}
+
+
+.form {
+    margin: 2rem 0;
+}
+
+#email {
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+input {
+    border: transparent;
+    border-radius: 30px;
+    padding: 20px 30px;
+    width: 100%;
+}
+/* ends here */
+
+
+/* footer section */
+footer {
+    padding: 15rem 2rem 0;
+    background-color: hsl(216, 53%, 9%);
+}
+
+
+.para {   
+    padding: 20px 15px;
+    text-align: left;
+    font-size: 14px;
+    
+} 
+
+
+.all {
+    display: flex;
+    align-items: baseline;
+}
+
+.lists {
+    margin: 3rem 0 0;
+}
+
+.lists ul {
+    list-style-type: none;
+}
+.lists ul li {
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.lists a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.lists a:hover {
+    text-decoration: none;
+}
+
+
+.sect {
+    margin-bottom: 4rem;
+}
+
+.social {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.social-icon {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 0 30px;
+}
+/* ends here */
+
+/* laptop view of 1440px */
+@media screen and (min-width: 600px) {
+   header {
+       padding: 30px;
+   } 
+
+   nav ul li {
+    padding: 12px;
+    
+}
+
+.content-img {
+    width: 50%;
+    margin: 0 auto; 
+}
+
+
+
+.bg {
+    background: none;
+}
+
+
+.lappy {
+    background-color: hsl(217, 28%, 15%);
+}
+
+
+#first-content h2 {
+   width: 30%;
+   margin: 0 auto;
+   text-align: center;
+ }
+
+#first-content p {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 120px;
+    width: 50%;
+    font-size: 14px;
+}
+
+.desk-bg {
+    background-image: url("./image/bg-curvy-desktop.svg");
+    background-repeat: no-repeat;
+    background-position:  top center;
+    background-size: cover;
+    padding: 20px 0;
+    grid: 30px;
+}
+
+
+
+.cont {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    width: 70.5%;
+    margin: 0 auto;
+}
+
+
+
+.file {
+    padding: 0 50px;
+}
+
+
+
+.productive{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 3rem auto;
+   justify-content: space-between;
+}
+
+
+.productive .content-imgs {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.case-one {
+    width: 50%;
+    margin: 3rem auto 0;
+    padding: 20px;
+}
+  
+.case-one #header {
+    font-size: 18px;
+    width: 30%;
+    font-weight: 700;
+} 
+
+
+.case-one #file {
+    margin-bottom: 120px;
+}
+
+#link {
+    margin-top: -6.5rem;
+}
+
+
+
+#quoter {
+    margin-left: 40px;
+}
+
+
+article {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    justify-items: center;
+    position: relative;
+    bottom: 8px;
+    left: -18px;
+    margin-left: 70px;
+}
+
+#quote_1 {
+    flex-shrink: 3;
+    flex-basis: 30%;
+    font-size: 14px;
+}
+
+#quote_2 {
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-left: 15px;
+    flex-shrink: 3;
+    flex-basis: 30%;
+    font-size: 14px;
+}
+
+#quote_3 {
+    margin-top: 0;
+    flex-shrink: 2;
+    flex-basis: 30%;
+    font-size: 14px;
+}
+
+
+
+.access {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 8rem;
+}
+
+.access h2 {
+    font-weight: 700;
+}
+
+
+.access p {
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+.form {
+    display: flex;
+    align-content: center;
+    width: 85%;
+    margin: 30px auto;
+    justify-content: center;
+}
+
+
+#email {
+    width: 65%;  
+    margin: 0 auto;
+}
+
+input {
+    width: 95%;
+}
+
+.bt-cont {
+    width: 35%;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+
+footer {
+    padding: 10rem 5rem 0;
+}
+
+
+.footer-cont {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+
+ 
+.para {
+    font-size: 14px;
+}
+
+.lists {
+    margin: 0 auto;
+    width: 30%;
+}
+
+
+
+.fold {
+    flex: 0 0 30%;
+}
+
+.folder {
+    flex: 0 0 0%;
+    padding: 0 3rem;
+}
+
+
+
+.lists ul li {
+    font-size: 14px;
+    padding: 10px;
+}
+
+}
