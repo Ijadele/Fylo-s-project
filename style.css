@@ -19,11 +19,11 @@ body {
 
 /* header of the Fylo's project */
 .logo {
-    width: 100px;   
+    width: 80px;   
 }
 
 .logo-img {
-    width: 30%;
+    width: 20%;
     margin: 0 auto;
 }
 
@@ -37,7 +37,7 @@ header {
 }
 
 nav {
-    width: 70%; 
+    width: 80%; 
 }
 
 
@@ -372,7 +372,7 @@ footer {
 }
 
 .social-icon {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     padding: 0 0 30px;
 }
